@@ -101,4 +101,22 @@ a:hover button{
     flex-direction: column;
     /* margin: 10px 430px; */
     margin: 11px;   
+    color: gray;
+}
+/*  Dernière section */ 
+.lastSection{
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    
+}
+hr{
+    color: gray;
+    width: 80px;
+    margin-top: 50px;
+}
+footer div{
+    text-align: center;
+    justify-content: center;
+    color: gray;
 }
