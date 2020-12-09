@@ -1,0 +1,26 @@
+body{
+    margin: o auto;
+}
+header{
+    background-image:url(../images/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+header .divEpilogue{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+header .divEpilogue h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+header .divEpilogue hr{
+    width: 350px;
+    opacity: 0.33;
+}
+header .divEpilogue p{
+    opacity: 0.53;
+}
