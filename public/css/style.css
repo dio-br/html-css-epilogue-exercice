@@ -1,6 +1,8 @@
 body{
     margin: o auto;
+    background-color: rgb(240, 240, 240);
 }
+/* header */
 header{
     background-image:url(../images/banner.jpg);
     background-attachment: fixed;
@@ -23,4 +25,38 @@ header .divEpilogue hr{
 }
 header .divEpilogue p{
     opacity: 0.53;
+}
+/* section avec icone diamant */
+.sectionDiamant{
+    margin: 150px 150px;
+}
+.sectionDiamant div{
+    text-align: center;
+    padding: 100px;
+    background-color: white;
+    margin-top: -100px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sectionDiamant div i{
+    border: solid gray 2px;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* button */
+button{
+    padding: 15px;
+    margin-top: 8px;
+    border: black solid 1px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+a:hover button{
+    color: red;
+    border: red solid 1px;
 }
