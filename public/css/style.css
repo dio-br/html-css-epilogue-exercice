@@ -60,3 +60,45 @@ a:hover button{
     color: red;
     border: red solid 1px;
 }
+
+/* section photos */
+.divGalerie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+}
+.divCard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* flex: 1; */
+    width: 40%;
+}
+.sectionPhoto .divCard .cardTitrePhoto_parent{
+    background-size: contain;
+    background-image: url(../images/pic01.jpg);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: 1px;
+    
+}
+.sectionPhoto .divCard h1{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 72px;
+    font-size: 25px;
+}
+.sectionPhoto .divCard .cardTexte{
+    text-align: center;
+    justify-content: center;
+    /* width: 30%; */
+    /* display: flex; */
+    background-color: white;
+    flex-direction: column;
+    /* margin: 10px 430px; */
+    margin: 11px;   
+}
